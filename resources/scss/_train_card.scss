@@ -1,0 +1,17 @@
+.train-card{
+    color: white;
+    font-family: $train-font;
+    box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.5);
+    cursor: pointer;
+    transition: all 0.5s;
+
+    .separator{
+        border-bottom: 1px solid white;
+    }
+
+    &:hover{
+        scale: 1.05;
+    }
+
+}
+

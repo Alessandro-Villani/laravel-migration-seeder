@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('company', 50);
             $table->string('departure_station', 50);
             $table->string('arrival_station', 50);
-            $table->time('departure_time', $precision = 4);
-            $table->time('arrival_time', $precision = 4);
+            $table->time('departure_time');
+            $table->time('arrival_time');
             $table->char('train_code', 6);
             $table->tinyInteger('carriage_n')->unsigned();
             $table->boolean('is_late')->default(0);
